@@ -1,0 +1,2 @@
+# dotfiles
+use arch hyprland

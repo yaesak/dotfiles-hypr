@@ -1,0 +1,9 @@
+configration {
+	modi: "drun";
+        font: "hackgen 10";
+	show: "drun";
+	icon-theme: "Papirus";
+	show-icons: true;
+}
+
+@theme "/usr/share/rofi/themes/Monokai.rasi"

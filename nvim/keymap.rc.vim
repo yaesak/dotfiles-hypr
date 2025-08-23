@@ -1,0 +1,11 @@
+nnoremap <S-h> <C-w>h
+nnoremap <S-j> <C-w>j
+nnoremap <S-k> <C-w>k
+nnoremap <S-l> <C-w>l
+nnoremap <S-Left>  <C-w><
+nnoremap <S-Right> <C-w>>
+nnoremap <S-Up>    <C-w>-
+nnoremap <S-Down>  <C-w>+
+nnoremap <silent><C-n> :NERDTreeToggle<CR>
+nmap <C-h> <Plug>AirlineSelectPrevTab
+nmap <C-l> <Plug>AirlineSelectNextTab

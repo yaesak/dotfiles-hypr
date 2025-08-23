@@ -1,0 +1,9 @@
+#!/bin/bash
+intern=eDP-1
+extern=DP-1
+
+if wlr-randr | grep "$extern disconnected"; then
+	wlr-randr --output "$extern" --off wlr-randr --output "$intern" --on
+else
+	wlr-randr --output "$extern" --on wlr-randr --output "$intern" --off
+fi
