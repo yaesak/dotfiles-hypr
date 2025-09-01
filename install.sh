@@ -52,6 +52,8 @@ function success() {
 }
 package='hyprland swww waybar rofi neovim zsh zsh-syntax-highlighting zsh-autosuggestions exa fcitx5 fcitx5-mozc fcitx5-configtool papirus-icon-theme starship ttf-hackgen brightnessctl greetd alsa-utils xf86-input-synaptic pavucontrol python-pipx imagemagick pipewire wireplumber pipewire-pulse npm discord obs tree pokemon-colorscripts-git'
 
+gnome_package="gnome"
+
 
 function symbolic() {
 	src_dir="$HOME/dotfiles"
@@ -115,6 +117,10 @@ if [ $# -eq 0 ]; then
 	exit 1
 fi
 
+function installGnome() {
+	yay -S $gnome_package
+	systemctl enable gdm
+}
 
 while [ -n "$1" ]; do
 	case "$1" in
@@ -129,6 +135,11 @@ while [ -n "$1" ]; do
 			;;
 		--symbolic | -s)
 			symbolic	
+			success
+			exit 0
+			;;
+		--gnome | -g)
+			installGnome
 			success
 			exit 0
 			;;
