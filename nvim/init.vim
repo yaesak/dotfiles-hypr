@@ -22,6 +22,7 @@ syntax on
 let g:loaded_youcompleteme = 1
 "let g:denops#deno = '/bin/deno'
 set laststatus=2
+set noswapfile
 let g:lightline = { 'colorscheme': 'tokyonight' }
 syntax on
 colorscheme tokyonight-moon

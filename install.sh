@@ -50,7 +50,7 @@ function success() {
 	echo -e "${logo}"
 	
 }
-package='hyprland swww waybar rofi neovim zsh zsh-syntax-highlighting zsh-autosuggestions exa fcitx5 fcitx5-mozc fcitx5-configtool papirus-icon-theme starship ttf-hackgen brightnessctl greetd alsa-utils xf86-input-synaptic pavucontrol python-pipx imagemagick pipewire wireplumber pipewire-pulse npm discord obs tree pokemon-colorscripts-git'
+package='hyprland swww waybar rofi neovim zsh zsh-syntax-highlighting zsh-autosuggestions exa fcitx5 fcitx5-mozc fcitx5-configtool papirus-icon-theme starship ttf-hackgen brightnessctl greetd alsa-utils xf86-input-synaptic pavucontrol python-pipx imagemagick pipewire wireplumber pipewire-pulse npm discord obs tree pokemon-colorscripts-git blueberry'
 
 gnome_package="gnome"
 

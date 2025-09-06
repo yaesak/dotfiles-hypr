@@ -33,6 +33,7 @@ alias wchmon="wlr-randr --output DP-1 --on wlr-randr --output eDP-1 --off"
 export EDITOR=nvim
 export PATH="$HOME/.config/myPython/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/share/applications:$PATH"
 wal -n -f ~/dotfiles/wal.json
 HISTFILE=~/.zsh_history
 HISTSIZE=2048
